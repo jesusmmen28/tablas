@@ -1,0 +1,27 @@
+
+table {
+    border: black solid 3px;
+}
+thead {
+    background-color: lightgreen;
+    border: black solid 1px;
+}
+tr td {
+    background-color: rgb(245, 245, 59);
+      border: black solid 1px;
+      text-align: center;
+}
+
+th {
+    border: black solid 1px;
+}
+
+#receso {
+    background-color: rgb(128, 225, 128);
+}
+
+.horas {
+    background-color: rgb(195, 243, 195);
+}
+
+
