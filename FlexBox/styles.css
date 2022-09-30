@@ -1,2 +1,97 @@
+body {
+    background-color: rgb(45, 207, 239);
+}
 
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content:center;
+    align-items:center;
+    background: rgb(105, 62, 185);
+    margin: auto;
+    margin-top: 40px;
+    padding: 20px;
+    border-radius: 15px;
+    width: 80%;
+}
+
+.form {
+    min-width: 200px;
+    flex: 1;
+    text-align: center;
+    padding: 30px;
+}
+
+
+.form-imput {
+    width: 100%;
+    padding: 7px;
+    margin: 6px 0;
+    border: none;
+    border-bottom: 3px solid rgb(219, 60, 189);
+    background-color: aqua;
+}
+
+.form-imput:focus {
+    background: rgb(150, 203, 218);
+    outline: none;
+    border-bottom: 3px solid rgb(41, 41, 234);
+}
+
+.form-imagen {
+    flex: 0.5;
+    padding: 10px;
+    display: flex;
+
+}
+
+.img-container {
+    padding: 30px;
+    margin: auto;
+    border-radius: 50%;
+    background-color: rgb(232, 168, 235);
+}
+
+
+.form-imagen img {
+    width: 100%;
+ 
+  
+}
+
+.form textarea {
+    min-height: 140px;
+    resize: none;
+}
+
+.button [type="submit"] {
+    background-color: rgb(22, 109, 109);
+    width: 120px;
+    padding: 5px;
+    margin-top: 10px;
+    color: white;
+    border: none;
+    border-bottom: solid red;
+    
+}
+
+.button [type="submit"]:hover {
+    color: rgb(165, 42, 136);
+}
+
+li
+{
+    list-style: none;
+}
+
+
+
+
+@media only screen and (max-width:700px) {
+   
+
+        .img-container {
+           padding: 12px;
+    }
+}
 
