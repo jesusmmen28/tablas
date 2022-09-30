@@ -12,7 +12,7 @@ body {
     margin-top: 40px;
     padding: 20px;
     border-radius: 15px;
-    width: 80%;
+    width: 60%;
 }
 
 .form {
@@ -20,6 +20,7 @@ body {
     flex: 1;
     text-align: center;
     padding: 30px;
+    order: 5;
 }
 
 
@@ -30,6 +31,7 @@ body {
     border: none;
     border-bottom: 3px solid rgb(219, 60, 189);
     background-color: aqua;
+    order: 2;
 }
 
 .form-imput:focus {
@@ -42,6 +44,9 @@ body {
     flex: 0.5;
     padding: 10px;
     display: flex;
+    min-width: 250px;
+    max-width: 400px;
+    order: 1;
 
 }
 
@@ -86,12 +91,4 @@ li
 
 
 
-
-@media only screen and (max-width:700px) {
-   
-
-        .img-container {
-           padding: 12px;
-    }
-}
 
